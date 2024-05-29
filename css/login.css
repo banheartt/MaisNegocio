@@ -146,36 +146,3 @@ footer{
     margin: 0px;
     margin-bottom: 10px;
 }
-
-@media (min-width: 992px) {
-    .container {
-      max-width: 1200px; /* Largura máxima personalizada (em pixels) */
-    }
-  }
-
-  /* Styles for the footer */
-.footer-color {
-    background-color: #333; /* Example color, define your desired color */
-    color: #fff; /* Example text color, define your desired color */
-    padding: 20px; /* Adjust padding as needed */
-  }
-  
-  .d-flex {
-    display: flex;
-  }
-  
-  .justify-content-evenly {
-    justify-content: space-between;
-  }
-  
-  /* Responsive styles for smaller screens */
-  @media screen and (max-width: 768px) {
-    .footer-color {
-      flex-direction: column; /* Stack sections vertically on small screens */
-      align-items: center; /* Center sections horizontally on small screens */
-    }
-  
-    .footer-color section {
-      margin-bottom: 20px; /* Add spacing between sections on small screens */
-    }
-  }
