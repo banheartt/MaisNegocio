@@ -29,12 +29,51 @@
 }
 
 @media (max-width: 480px) {
+  * {
+    font-size: 14px;
+  }
+  main {
+    width: 100vw;
+  }
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer {
+    width: 100vw;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  * {
+    font-size: 14px;
+  }
+  main {
+    width: 100vw;
+  }
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer {
+    width: 100vw;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    font-size: 14px;
+  }
+  main {
+    width: 100vw;
+  }
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer {
+    width: 100vw;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -202,18 +241,3 @@ p{
   margin-bottom: 10px;
 }
 
-@media (max-width: 900px) {
-  * {
-    font-size: 14px;
-  }
-  main {
-    width: 100vw;
-  }
-  #cards {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  footer {
-    width: 100vw;
-  }
-}/*# sourceMappingURL=styles.css.map */
