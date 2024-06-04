@@ -11,20 +11,20 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
                     <a href="">
-                    <img src="/public/banner/banner1.webp" class="d-block w-100" alt="..."></a>
+                    <img src="./public/banner/banner1.webp" class="d-block w-100" alt="..."></a>
                     <div class="carousel-caption d-none d-md-block">
                     </div>
 
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                     <a href="">
-                    <img src="/public/banner/banner2.webp" class="d-block w-100" alt="..."></a>
+                    <img src="./public/banner/banner2.webp" class="d-block w-100" alt="..."></a>
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                   </div>
                   <div class="carousel-item">
                     <a href="">
-                    <img src="/public/banner/banner3.webp" class="d-block w-100" alt="..."></a>
+                    <img src="./public/banner/banner3.webp" class="d-block w-100" alt="..."></a>
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                   </div>

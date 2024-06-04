@@ -12,6 +12,6 @@
         <p style="padding-bottom: 60px;"><b>Suporte Contínuo:</b> Nosso compromisso não termina quando você obtém um empréstimo ou conclui um curso. Estamos aqui para fornecer suporte contínuo ao longo de sua jornada financeira. Nossa equipe dedicada está disponível para responder às suas perguntas, fornecer orientação e ajudá-lo a enfrentar desafios financeiros com confiança.</p>
         
     </article>
-    <div class="col-lg" style="padding: 0px;"><img src="/public/card-layout.jpg" class="col justify-content-evenly w-100 h-100 " alt="" id="img-card-layout"></div>
+    <div class="col-lg" style="padding: 0px;"><img src="./public/card-layout.jpg" class="col justify-content-evenly w-100 h-100 " alt="" id="img-card-layout"></div>
 </section>
 <!-- Fim da section do Quem Somos -->

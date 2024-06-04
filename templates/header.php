@@ -13,7 +13,7 @@
 
  <!-- Início do header -->
 <header class="d-flex justify-content-between position-fixed z-3 bg-white w-100 py-2 px-5" style="box-shadow: 0px 0px 8px 0.8px rgba(0,0,0,0.15);">
-  <a href="/index.html" class="my-auto mx-5"><img src="/public/Logo..svg" class="my-auto" alt="Mais Negócios"></a>
+  <a href="./index.php" class="my-auto mx-5"><img src="./public/Logo..svg" class="my-auto" alt="Mais Negócios"></a>
     <nav class="navbar navbar-expand-lg navbar-light my-auto">
       <div class="container-fluid" style="padding: 0px;">
         <div class="ms-5 ps-3">
@@ -24,29 +24,29 @@
         <div class="collapse navbar-collapse my-auto mx-1" id="navbarNav">
           <ul class="navbar-nav gap-4 align-items-center">
             <li class="nav-item">
-              <a class="nav-links active link-hover" aria-current="page" href="/index.html">Início</a>
+              <a class="nav-links active link-hover" aria-current="page" href="./index.php">Início</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle link-hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Serviços
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/servicos.html">Simular empréstimo</a></li>
+                <li><a class="dropdown-item" href="./servicos.php">Simular empréstimo</a></li>
                 <!-- Opção oculta para ser implementada no futuro -->
-                <li style="display: none;"><a class="dropdown-item" href="/index.html">Renegociar dívidas</a></li>  
+                <li style="display: none;"><a class="dropdown-item" href="./index.php">Renegociar dívidas</a></li>  
                 <!-- Fim da opção oculta para ser implementada no futuro --> 
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-links active text-nowrap link-hover" aria-current="page" href="/quemSomos.html">Quem somos</a>
+              <a class="nav-links active text-nowrap link-hover" aria-current="page" href="./quemSomos.php">Quem somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-links active link-hover" aria-current="page" href="/index.html">Educação</a>
+              <a class="nav-links active link-hover" aria-current="page" href="./index.php">Educação</a>
             </li>
             <li class="nav-item">
-              <a class="nav-links active link-hover" aria-current="page" href="/faq.html">FAQ</a>
+              <a class="nav-links active link-hover" aria-current="page" href="./faq.php">FAQ</a>
             </li>
-            <a href="/login.html"><button class=" btn-header border-0 rounded-pill text-white btn-autorizacao"><img src="/public/person-fill.svg" style="padding: 0px 4px 2px 0px">Entrar</button></a>
+            <a href="./login.php"><button class=" btn-header border-0 rounded-pill text-white btn-autorizacao"><img src="./public/person-fill.svg" style="padding: 0px 4px 2px 0px">Entrar</button></a>
           </ul>
         </div>
       </div>

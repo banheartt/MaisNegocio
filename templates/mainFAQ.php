@@ -1,5 +1,5 @@
 <!-- Início do main -->
-<main class="mx-5 mt-5 d-flex flex-column justify-content-between gap-5" >
+<main class="mx-5 mt-5 d-flex flex-column justify-content-between gap-5" style="padding-bottom: 200px;">
       <h1 class="mt-5 pt-5 color-1 tituloSecao">FAQ</h1>
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <!-- Accordion 1 -->
@@ -104,7 +104,8 @@
               <p>Você pode entrar em contato conosco através dos seguintes canais:</p>
               <p><b>Telefone:</b> (XX) XXXX-XXXX</p>
               <p><b>E-mail: </b>  atendimento@maisnegocio.com</p>
-              <p><b>Site:</b> <a href="https://maisnegocio.netlify.app" style="list-style: none;">https://maisnegocio.netlify.app/</a></p></div>
+              <p><b>Site:</b> <a href="https://maisnegocio.netlify.app" style="list-style: none;">https://maisnegocio.netlify.app/</a></p>
+            </div>
           </div>
         </div>
       </div>

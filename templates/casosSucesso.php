@@ -11,13 +11,13 @@
                   <div class="carousel-item active ">
                    <div class="card-group gap-3">
                     <div class="card border-0">
-                        <img src="/public/cards/card1.png" class="card-img-top" alt="...">
+                        <img src="./public/cards/card1.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card border-0">
-                        <img src="/public/cards/card2.png" class="card-img-top" alt="...">
+                        <img src="./public/cards/card2.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card border-0">
-                        <img src="/public/cards/card3.png" class="card-img-top" alt="...">
+                        <img src="./public/cards/card3.png" class="card-img-top" alt="...">
                     </div>
                   </div>
                   

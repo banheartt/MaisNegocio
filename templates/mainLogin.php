@@ -26,7 +26,7 @@
         </div>
 
         <div class="d-flex justify-content-center" style="padding-top: 40px;">
-          <p style="font-size: 14px;">Não tem uma conta? <a class="passLink" href="/register.html">Inscreva-se</a></p>
+          <p style="font-size: 14px;">Não tem uma conta? <a class="passLink" href="./register.php">Inscreva-se</a></p>
         </div>
       </form>
     </div>
