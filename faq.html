@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Negócio</title>
+    <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link do arquivo CSS personalizado -->
+    <link rel="stylesheet" href="/css/faq.css">
+</head>
+<body class="d-flex flex-column gap-5">
+
+<!-- Implementação do vlibras -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<!-- Fim da Implementação do vlibras -->
+
+<!-- Início do header -->
+<header class="d-flex justify-content-between position-fixed z-3 bg-white w-100 py-2 px-5" style="box-shadow: 0px 0px 8px 0.8px rgba(0,0,0,0.15); z-index: 1000; ">
+<a href="./index.html" class="my-auto mx-5"><img src="./public/Logo..svg" class="my-auto" alt="Mais Negócios"></a>
+<nav class="navbar navbar-expand-lg navbar-light my-auto">
+  <div class="container-fluid" style="padding: 0px;">
+    <div class="ms-5 ps-3">
+      <button class="navbar-toggler ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>  
+    <div class="collapse navbar-collapse my-auto mx-1" id="navbarNav">
+      <ul class="navbar-nav gap-4 align-items-center">
+        <li class="nav-item">
+          <a class="nav-links active link-hover" aria-current="page" href="./index.html">Início</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle link-hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Serviços
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./servicos.html">Simular empréstimo</a></li>
+            <!-- Opção oculta para ser implementada no futuro -->
+            <li style="display: none;"><a class="dropdown-item" href="./index.html">Renegociar dívidas</a></li>  
+            <!-- Fim da opção oculta para ser implementada no futuro --> 
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-links active text-nowrap link-hover" aria-current="page" href="./quemSomos.html">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-links active link-hover" aria-current="page" href="./index.html">Educação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-links active link-hover" aria-current="page" href="./faq.html">FAQ</a>
+        </li>
+        <a href="./login.html"><button class=" btn-header border-0 rounded-pill text-white btn-autorizacao"><img src="./public/person-fill.svg" style="padding: 0px 4px 2px 0px">Entrar</button></a>
+      </ul>
+    </div>
+  </div>
+</nav>  
+</header>
+<!-- Fim do header -->
+
+<!-- Início do main -->
+<main class="mx-5 mt-5 d-flex flex-column justify-content-between gap-5" style="padding-bottom: 200px; z-index: auto;">
+  <h1 class="mt-5 pt-5 color-1 tituloSecao">FAQ</h1>
+  <div class="accordion accordion-flush" id="accordionFlushExample" style="z-index: 0;">
+    <!-- Accordion 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Quais serviços a Mais Negócio oferece?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <p><b>Empréstimos Responsáveis:</b> Entendemos que empréstimos podem ser uma ferramenta útil para alcançar metas financeiras, mas é crucial escolher opções que sejam adequadas e sustentáveis. Oferecemos orientação especializada para ajudá-lo a encontrar o empréstimo certo para suas necessidades, com taxas justas e condições transparentes.</p>
+          <p><b>Educação Financeira Personalizada:</b> Acreditamos que cada pessoa tem uma jornada financeira única. Oferecemos recursos educacionais personalizados, incluindo artigos, guias e ferramentas interativas, para ajudá-lo a entender conceitos financeiros complexos e tomar decisões informadas sobre economia, investimentos, crédito e muito mais.</p>
+          <p><b>Suporte Contínuo:</b> Nosso compromisso não termina quando você obtém um empréstimo ou conclui um curso. Estamos aqui para fornecer suporte contínuo ao longo de sua jornada financeira. Nossa equipe dedicada está disponível para responder às suas perguntas, fornecer orientação e ajudá-lo a enfrentar desafios financeiros com confiança.</p></div>
+      </div>
+    </div>
+    <!-- Accordion 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Para quem os cursos de educação financeira da Mais Negócio são direcionados?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><p>Nossos cursos são direcionados para pessoas de todos os níveis de conhecimento financeiro, desde iniciantes que desejam aprender os conceitos básicos de finanças pessoais até investidores experientes que buscam aprimorar suas estratégias de investimento.</p></div>
+      </div>
+    </div>
+    <!-- Accordion 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Quais são os benefícios de fazer um curso de educação financeira na Mais Negócio?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <p><b>Aprender a criar um orçamento e controlar seus gastos:</b> Você aprenderá a acompanhar seu dinheiro, identificar áreas onde pode economizar e definir metas financeiras realistas.</p>
+          <p><b>Gerenciar suas dívidas de forma eficaz:</b> Você desenvolverá um plano para eliminar suas dívidas de forma eficiente e evitar o endividamento no futuro.</p>
+          <p><b>Investir para o futuro:</b> Você aprenderá sobre diferentes opções de investimento e como construir um patrimônio sólido para o futuro.</p>
+          <p><b>Alcançar seus objetivos financeiros:</b> Seja qual for o seu objetivo, seja comprar uma casa, se aposentar com conforto ou viajar pelo mundo, nossos cursos podem te ajudar a chegar lá.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Accordion 4 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+          Como posso me inscrever em um curso de educação financeira da Mais Negócio?
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><p>Para se inscrever em um curso, basta acessar a seção <a href="#" style="text-decoration: none;">"Educação"</a> do nosso site e escolher o curso que deseja fazer.</p></div>
+      </div>
+    </div>
+    <!-- Accordion 5 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+          Como posso obter um empréstimo na Mais Negócio?
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <p>Para obter um empréstimo na Mais Negócio, você precisa seguir estes passos:</p>
+          <p><b>Acesse nosso site:</b> <a href="https://maisnegocio.netlify.app/register" style="text-decoration: none;">https://maisnegocio.netlify.app/register</a> e clique na opção "Entrar > Não tenho uma conta".</p>
+          <p><b>Preencha o formulário de solicitação: </b>  Na seção "Simular empréstimo", preencha o formulário de solicitação, o formulário solicitará algumas informações pessoais e sobre o seu negócio.</p>
+          <p><b>Faça o nosso curso:</b> Para aumentar as chances de aprovação da sua solicitação, conclua o nosso curso de Educação Financeira obrigatório, na seção "Educação".</p>
+          <p><b>Aguarde o retorno:</b> Fique de olho no seu endereço de e-mail e nos outros meios de contato informados, o retorno poderá demorar até 2 semanas após a conclusão do curso.</p></div>
+      </div>
+    </div>
+    <!-- Accordion 6 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+          Posso usar o simulador de empréstimos no site da Mais Negócio?
+        </button>
+      </h2>
+      <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><p>Sim, você pode usar o simulador de empréstimos no nosso site para ter uma estimativa do valor das parcelas e do total a ser pago pelo empréstimo. Para utilizar o simulador, basta informar o valor do empréstimo, o prazo e a taxa de juros desejada.</p></div>
+      </div>
+    </div>
+    <!-- Accordion 7 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+          Qual a taxa de juros dos empréstimos da Mais Negócio?
+        </button>
+      </h2>
+      <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><p>A taxa de juros dos empréstimos da Mais Negócio varia de acordo com o tipo de empréstimo, o valor solicitado, o prazo e o seu perfil de crédito. Para saber a taxa de juros exata para o seu caso, consulte um de nossos consultores.</p></div>
+      </div>
+    </div>
+    <!-- Accordion 8 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+          Como posso entrar em contato com a Mais Negócio?
+        </button>
+      </h2>
+      <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <p>Você pode entrar em contato conosco através dos seguintes canais:</p>
+          <p><b>Telefone:</b> (XX) XXXX-XXXX</p>
+          <p><b>E-mail: </b>  atendimento@maisnegocio.com</p>
+          <p><b>Site:</b> <a href="https://maisnegocio.netlify.app" style="list-style: none;">https://maisnegocio.netlify.app/</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+<!-- Fim do main -->
+
+<!-- Início do footer -->
+<div class="row footer-color" style="padding-top: 50px; padding-bottom: 50px;">
+  
+  <footer class="footer-color d-flex justify-content-evenly p-3 gap-2 px-5 flex-wrap">
+
+  <section class="mb-5">
+    <article>
+      <h1 class="tituloFooter">Crédito</h1>
+      <hr class="separaFooter">
+      <a class="nav-links color-1 p-0" href=""><p>Simulação de empréstimo</p></a>
+      <a class="nav-links color-1 p-0" href=""><p>Renegociação de dívidas</p></a>
+    </article>
+  </section>
+
+  <section class="mb-5">
+    <article>
+      <h1 class="tituloFooter">Produtos</h1>
+      <hr class="separaFooter">
+      <a class="nav-links color-1 p-0" href=""><p class="itemFooter">Nosso curso</p></a>
+      <a class="nav-links color-1 p-0" href=""><p class="itemFooter">Vantagens</p></a>
+    </article>
+  </section>
+
+  <section class="mb-5">
+    <article>
+      <h1 class="tituloFooter">Sobre nós</h1>
+      <hr class="separaFooter">
+      <a class="nav-links color-1 p-0" href=""><p class="itemFooter">Quem somos</p></a>
+      <a class="nav-links color-1 p-0" href=""><p class="itemFooter">Seja nosso parceiro</p></a>
+      <a class="nav-links color-1 p-0" href=""><p class="itemFooter">Educação financeira</p></a>
+      <a class="nav-links color-1 p-0" href=""><p class="itemFooter">Desenvolvimento humano</p></a>
+      <a class="nav-links color-1 p-0" href=""><p class="itemFooter">Imprensa</p></a>
+      <a class="nav-links color-1 p-0" href=""><p class="itemFooter">FAQ</p></a>
+    </article>
+  </section>
+
+  <section>
+    <article>
+      <h1 class="tituloFooter">Fale conosco</h1>
+      <hr class="separaFooter">
+      <a href="" class="nav-links color-1 p-0"><p class="itemFooter">Ajuda</p></a>
+      <a href="" class="nav-links color-1 p-0"><p class="itemFooter">Nossos canais</p></a>
+      <a href="" class="nav-links color-1 p-0"><p class="itemFooter">Telefones</p></a>
+      <a href="" class="nav-links color-1 p-0"><p class="itemFooter">Ouvidoria</p></a>
+      <a href="" class="nav-links color-1 p-0"><p class="itemFooter">Segurança</p></a>
+      <a href="" class="nav-links color-1 p-0"><p class="itemFooter">Política de Privacidade</p></a>
+      <a href="" class="nav-links color-1 p-0"><p class="itemFooter">Política de Cookies</p></a>
+    </article>
+  </section>
+
+</footer>
+</div>
+<!-- Fim do footer -->
+
+<!-- Script de inclusão do bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Fim do Script de inclusão do bootstrap -->
+
+</body>
+</html>

@@ -30,19 +30,56 @@
 }
 
 @media (max-width: 480px) {
+  cards{
+    width: 18rem; 
+    padding: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  cards{
+    width: 18rem; 
+    padding: 0px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  cards{
+    width: 18rem; 
+    padding: 0px;
+  } 
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  * {
+      font-size: 14px;
+    }
+    main {
+      width: 100vw;
+    }
+    cards{
+      width: 18rem; 
+      padding: 0px;
+    }
+    footer {
+      width: 100vw;
+  }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1599px)  {
+  cards{
+    width: 12rem; 
+    padding: 0px;
+  }
 }
+
+@media only screen and (min-width: 1600px) {
+  cards{
+    width: 18rem; 
+    padding: 0px;
+  }
+}
+
 
 * {
   margin: 0px;
@@ -54,6 +91,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: var(--font-primary);
+  overflow-x: hidden;
 }
 
 footer {
@@ -202,19 +240,3 @@ p{
   margin: 0px;
   margin-bottom: 10px;
 }
-
-@media (max-width: 900px) {
-  * {
-    font-size: 14px;
-  }
-  main {
-    width: 100vw;
-  }
-  #cards {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  footer {
-    width: 100vw;
-  }
-}/*# sourceMappingURL=styles.css.map */
