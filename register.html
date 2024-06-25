@@ -26,14 +26,14 @@
 
 <!-- Início do header -->
 <header class="d-flex justify-content-between position-fixed z-3 bg-white w-100 py-2 px-5" style="box-shadow: 0px 0px 8px 0.8px rgba(0,0,0,0.15); z-index: 1000; ">
-<a href="./index.html" class="my-auto mx-5"><img src="./public/Logo..svg" class="my-auto" alt="Mais Negócios"></a>
-<nav class="navbar navbar-expand-lg navbar-light my-auto">
-  <div class="container-fluid" style="padding: 0px;">
-    <div class="ms-5 ps-3">
-      <button class="navbar-toggler ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>  
+  <a href="./index.html" class="my-auto mx-3"><img src="./public/Logo..svg" class="my-auto img-fluid" alt="Mais Negócios"></a>
+  <nav class="navbar navbar-expand-lg navbar-light my-auto">
+    <div class="container-fluid" style="padding: 0px;">
+      <div class="ms-lg-5 ps-3">
+        <button class="navbar-toggler ms-lg-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>  
     <div class="collapse navbar-collapse my-auto mx-1" id="navbarNav">
       <ul class="navbar-nav gap-4 align-items-center">
         <li class="nav-item">
@@ -69,16 +69,17 @@
 
 <!-- Início do main -->
 <main>
-  <div class="container mrg">
-      <div class="row align-items-center" style="padding-top: 200px; padding-bottom: 200px;">
-        <div class="col-7 titledesktop">
-          <h1>Cadastro</h1>
-          <p><b>Simule seu empréstimo</b> sem sair de casa.</p>
-        </div>
-        <div class="col-12 titlemobile">
-          <h1>Cadastro</h1>
-          <p><b>Simule seu empréstimo sem sair de casa.</p>
-        </div>
+        <div class="container containerServicos">
+          <div class="row align-items-center" style="padding-top: 200px; padding-bottom: 200px;">
+            <div class="col-7 titledesktop">
+              <h1 class="tituloSecao">Cadastro</h1>
+              <p><b>Simule seu empréstimo</b> sem sair de casa.</p>
+            </div>
+            <div class="col-12 titlemobile" style="padding: 20px;">
+              <h1 class="tituloSecao">Cadastro</h1>
+              <p><b>Simule seu empréstimo</b> sem sair de casa.</p>
+            </div>
+            <div class="col">
         <div class="col">
           <form class="custom-form" id="registrationForm" action="#">
             <input type="hidden" name="type" value="pessoa">
@@ -98,6 +99,40 @@
                 <label for="InputPhone" class="form-label">Celular</label>
                 <input class="form-control" id="InputPhone" name="InputPhone" placeholder="(DDD) 12345-6789" type="text" aria-label="default input example" required>
               </div>  
+              <div class="mb-3">
+                <label for="#" class="form-label">Qual sua profissão?</label>
+                <select class="form-select" aria-label="Selecione">
+                  <option>Administrador</option>
+                  <option>Advogado</option>
+                  <option>Arquiteto</option>
+                  <option>Assistente Social</option>
+                  <option>Ator/Atriz</option>
+                  <option>Biólogo</option>
+                  <option>Contador</option>
+                  <option>Cozinheiro</option>
+                  <option>Designer</option>
+                  <option>Desempregado</option>
+                  <option>Economista</option>
+                  <option>Educador Físico</option>
+                  <option>Enfermeiro</option>
+                  <option>Engenheiro Civil</option>
+                  <option>Farmacêutico</option>
+                  <option>Fisioterapeuta</option>
+                  <option>Geólogo</option>
+                  <option>Historiador</option>
+                  <option>Jornalista</option>
+                  <option>Médico</option>
+                  <option>Nutricionista</option>
+                  <option>Professor</option>
+                  <option>Programador</option>
+                  <option>Psicólogo</option>
+                  <option>Químico</option>
+                  <option>Recepcionista</option>
+                  <option>Secretário</option>
+                  <option>Terapeuta Ocupacional</option>
+                  <option>Veterinário</option>
+                </select>
+              </div> 
 
               <div class="mb-3">
                 <label for="senha_input" class="form-label">Senha</label>
@@ -108,14 +143,20 @@
                 <label for="confirmsenha_input" class="form-label">Confirme sua senha</label>
                 <input type="password" class="form-control" id="confirmsenha_input" name="confirmsenha_input" required>
               </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Conte-nos mais sobre sua ideia inovadora:</label>
+                <textarea class="form-control" id="ideiaInovadora" name="ideiaInovadora" rows="5" placeholder="Digite aqui sua ideia inovadora"></textarea>
+              </div>
               
               <div class="checkbox">
                 <input type="checkbox" id="signupCheck" required>
                 <label for="signupCheck" style="font-size: 14px; padding-bottom: 10px;">Eu li e concordo com os <a href="#">Termos e Condições.</a></label>
               </div>
     
-              <button type="submit" class="btn btn-primary rounded-pill btn-simular">Cadastrar</button>
-
+              <div class="mb-3 text-center">
+                <button type="submit" class="btn btn-primary rounded-pill btn-simular">Cadastrar</button>
+              </div>
           </form>
         </div>
       </div>

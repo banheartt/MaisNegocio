@@ -29,75 +29,111 @@
 }
 
 /* Início dos media queries */
-@media screen and (max-width: 480px) {
-    .tituloSecao {
-      font-size: 35px; 
-      font-weight: var(--font-weight-700);
-      color: var(--color-green);
-    }
-    #cards {
-      display: flex;
-      flex-wrap: wrap;
-    }
+@media screen and (max-width: 379px) {
+  .tituloSecao {
+    font-size: 35px; 
+    font-weight: var(--font-weight-700);
+    color: var(--color-green);
   }
-  
-  @media screen and (min-width: 481px) and (max-width: 767px) {
-    .tituloSecao {
-      font-size: 45px; 
-      font-weight: var(--font-weight-700);
-      color: var(--color-green);
-    }
-    #cards {
-      display: flex;
-      flex-wrap: wrap;
-    }
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
   }
-  
-  @media screen and (min-width: 768px) and (max-width: 991px) {
-    .tituloSecao {
-      font-size: 45px; 
-      font-weight: var(--font-weight-700);
-      color: var(--color-green);
-    }
-    #cards {
-      display: flex;
-      flex-wrap: wrap;
-    }
+  main {
+    width: 100vw;
+    margin-top: 3%;
   }
-  
-  @media screen and (min-width: 992px) and (max-width: 1199px) {
-    * {
-        font-size: 14px;
-      }
-      main {
-        width: 100vw;
-      }
-      .tituloSecao {
-        font-size: 54px; 
-        font-weight: var(--font-weight-700);
-        color: var(--color-green);
-      }
-      footer {
-        width: 100vw;
-    }
+}
+@media screen and (min-width: 380px) and (max-width: 480px) {
+  .tituloSecao {
+    font-size: 35px; 
+    font-weight: var(--font-weight-700);
+    color: var(--color-green);
   }
-  
-  @media screen and (min-width: 1200px) and (max-width: 1599px)  {
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main {
+    width: 100vw;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .tituloSecao {
+    font-size: 45px; 
+    font-weight: var(--font-weight-700);
+    color: var(--color-green);
+  }
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main {
+    width: 100vw;
+    margin-top: 6%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .tituloSecao {
+    font-size: 45px; 
+    font-weight: var(--font-weight-700);
+    color: var(--color-green);
+  }
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main {
+    width: 100vw;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  * {
+      font-size: 14px;
+    }
+    main {
+      width: 100vw;
+      margin-top: 2%;
+    }
     .tituloSecao {
       font-size: 54px; 
       font-weight: var(--font-weight-700);
       color: var(--color-green);
-    } 
-  }
-  
-  @media screen and (min-width: 1600px) {
-    .tituloSecao {
-      font-size: 54px; 
-      font-weight: var(--font-weight-700);
-      color: var(--color-green);
     }
+    footer {
+      width: 100vw;
   }
-  /* Fim dos media queries */
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1599px)  {
+  .tituloSecao {
+    font-size: 54px; 
+    font-weight: var(--font-weight-700);
+    color: var(--color-green);
+  } 
+  main {
+    width: 100vw;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .tituloSecao {
+    font-size: 54px; 
+    font-weight: var(--font-weight-700);
+    color: var(--color-green);
+  }
+  main {
+    width: 100vw;
+    margin-top: 2%;
+  }
+}
+/* Fim dos media queries */
 
 * {
     margin: 0;
