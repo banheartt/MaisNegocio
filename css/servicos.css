@@ -44,6 +44,7 @@
   }
   .containerServicos {
     flex-wrap: wrap;
+    padding-top: 100px;
   }
   main {
     width: 100vw;
@@ -61,6 +62,7 @@
     }
     .containerServicos {
       flex-wrap: wrap;
+      padding-top: 100px;
     }
     main {
       width: 100vw;
@@ -81,6 +83,9 @@
       width: 100vw;
       margin-top: 6%;
     }
+    .containerServicos {
+      padding-top: 100px;
+    }
   }
   
   @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -95,6 +100,9 @@
     main {
       width: 100vw;
       margin-top: 5%;
+    }
+    .containerServicos {
+      padding-top: 100px;
     }
   }
   
@@ -117,6 +125,9 @@
       footer {
         width: 100vw;
     }
+    .containerServicos {
+      padding-top: 185px;
+    }
   }
   
   @media screen and (min-width: 1200px) and (max-width: 1599px)  {
@@ -132,6 +143,9 @@
       width: 100vw;
       margin-top: 2%;
     }
+    .containerServicos {
+      padding-top: 185px;
+    }
   }
   
   @media screen and (min-width: 1600px) {
@@ -146,6 +160,9 @@
     main {
       width: 100vw;
       margin-top: 2%;
+    }
+    .containerServicos {
+      padding-top: 185px;
     }
   }
   /* Fim dos media queries */
