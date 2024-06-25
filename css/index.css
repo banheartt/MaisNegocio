@@ -43,6 +43,9 @@
     width: 100vw;
     margin-top: 3%;
   }
+  .carouseldesktop {
+    display: none;
+  }
 }
 @media screen and (min-width: 380px) and (max-width: 480px) {
   .tituloSecao {
@@ -57,6 +60,9 @@
   main {
     width: 100vw;
     margin-top: 10%;
+  }
+  .carouseldesktop {
+    display: none;
   }
 }
 
@@ -74,6 +80,9 @@
     width: 100vw;
     margin-top: 6%;
   }
+  .carouselmobile {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -89,6 +98,9 @@
   main {
     width: 100vw;
     margin-top: 5%;
+  }
+  .carouselmobile {
+    display: none;
   }
 }
 
@@ -108,6 +120,9 @@
     footer {
       width: 100vw;
   }
+  .carouselmobile {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1599px)  {
@@ -120,6 +135,9 @@
     width: 100vw;
     margin-top: 2%;
   }
+  .carouselmobile {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1600px) {
@@ -131,6 +149,9 @@
   main {
     width: 100vw;
     margin-top: 2%;
+  }
+  .carouselmobile {
+    display: none;
   }
 }
 /* Fim dos media queries */
