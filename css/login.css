@@ -28,6 +28,77 @@
     --space-between-lines-05: 0.5;
 }
 
+/* Início dos media queries */
+@media screen and (max-width: 480px) {
+    .tituloSecao {
+      font-size: 35px; 
+      font-weight: var(--font-weight-700);
+      color: var(--color-green);
+    }
+    #cards {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    .tituloSecao {
+      font-size: 45px; 
+      font-weight: var(--font-weight-700);
+      color: var(--color-green);
+    }
+    #cards {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .tituloSecao {
+      font-size: 45px; 
+      font-weight: var(--font-weight-700);
+      color: var(--color-green);
+    }
+    #cards {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    * {
+        font-size: 14px;
+      }
+      main {
+        width: 100vw;
+      }
+      .tituloSecao {
+        font-size: 54px; 
+        font-weight: var(--font-weight-700);
+        color: var(--color-green);
+      }
+      footer {
+        width: 100vw;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) and (max-width: 1599px)  {
+    .tituloSecao {
+      font-size: 54px; 
+      font-weight: var(--font-weight-700);
+      color: var(--color-green);
+    } 
+  }
+  
+  @media screen and (min-width: 1600px) {
+    .tituloSecao {
+      font-size: 54px; 
+      font-weight: var(--font-weight-700);
+      color: var(--color-green);
+    }
+  }
+  /* Fim dos media queries */
+
 * {
     margin: 0;
     padding: 0;

@@ -71,23 +71,27 @@
 <main>
   <div class="container mrg">
       <div class="row align-items-center" style="padding-top: 200px; padding-bottom: 200px;">
-        <div class="col-7">
+        <div class="col-7 titledesktop">
           <h1>Cadastro</h1>
           <p><b>Simule seu empréstimo</b> sem sair de casa.</p>
         </div>
+        <div class="col-12 titlemobile">
+          <h1>Cadastro</h1>
+          <p><b>Simule seu empréstimo sem sair de casa.</p>
+        </div>
         <div class="col">
-          <form class="custom-form" id="registrationForm" action="<?php echo $BASE_URL ?>processing/processingPessoa.php" method="POST" onsubmit="return verificarErro()">
+          <form class="custom-form" id="registrationForm" action="#">
             <input type="hidden" name="type" value="pessoa">
             <div class="mb-3">
-                <label for="nome_input" class="form-label" <?php if(isset($_POST['nome_input'])) echo 'value="' . htmlspecialchars($_POST['nome_input']) . '"'; ?>>Nome completo</label>
+                <label for="nome_input" class="form-label">Nome completo</label>
                 <input class="form-control" id="nome_input" name="nome_input" type="text" aria-label="default input example" required>
               </div>       
               <div class="mb-3">
-                <label for="cpf_input" class="form-label" <?php if(isset($_POST['cpf_input'])) echo 'value="' . htmlspecialchars($_POST['cpf_input']) . '"'; ?>>CPF</label>
+                <label for="cpf_input" class="form-label" >CPF</label>
                 <input class="form-control" id="cpf_input" name="cpf_input" placeholder="000.000.000-00" type="text" aria-label="default input example" required>
               </div>     
               <div class="mb-3">
-                <label for="email_input" class="form-label" <?php if(isset($_POST['email_input'])) echo 'value="' . htmlspecialchars($_POST['email_input']) . '"'; ?>>E-mail</label>
+                <label for="email_input" class="form-label">E-mail</label>
                 <input type="email" placeholder="seuemail@exemplo.com" class="form-control" id="email_input" name="email_input" aria-describedby="emailHelp" required>
               </div>
               <div class="mb-3">
